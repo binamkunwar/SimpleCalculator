@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the first number"
+        android:textSize="25dp"
+        android:id="@+id/first"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Second number"
+
+        android:textSize="25dp"
+        android:id="@+id/second"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="+"
+        android:textColor="@color/purple_700"
+
+        android:background="@color/teal_200"
+        android:id="@+id/add"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="-"
+        android:textColor="@color/purple_700"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/teal_200"
+        android:id="@+id/sub"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="*"
+        android:textColor="@color/purple_700"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/teal_200"
+        android:id="@+id/multiply"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="/"
+        android:textColor="@color/purple_700"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+
+        android:background="@color/teal_200"
+        android:id="@+id/divide"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result:"
+        android:textSize="25dp"
+
+        android:id="@+id/result"/>
+
+</LinearLayout>
